@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: darkgrey;
+    color: white;
+    display: flex; 
+
+}
+header .taglogo{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.head-nav a {
+    text-decoration: none;
+    color: white;
+}
+.head-nav ul {
+    display: flex;
+}
+.head-nav ul li {
+    list-style-type: none;
+    margin-right: 20px; 
+}
+main{
+    width: 75%;
+   margin: 20px auto;
+}
+.main-blog{
+    
+    background-color: rgb(229, 227, 227); 
+    padding: 20px; 
+}
+.ex-sec1 h3{
+    margin: 10px 0px;
+}
+.ex-sec1 p{
+    margin-bottom: 10px;
+}
+.ex-main{
+    background-color: rgb(251, 247, 247);
+    padding: 20px;
+}
+footer{
+    background-color: darkgrey;
+    height: 70px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+}
