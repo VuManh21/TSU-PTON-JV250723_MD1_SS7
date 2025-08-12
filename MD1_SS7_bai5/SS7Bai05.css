@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+   
+}
+.small{
+    padding: 10px;
+    background-color: darkgrey;
+    color: white;
+    
+}
+.big{
+grid-row-start: 1;
+grid-row-end: 3;
+
+}
+.container .big2{
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
